@@ -1,0 +1,139 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3999668223" file="C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization.prj" location="C:\Users\Administrator\Desktop\gui2" name="srr_isri_design_visualization" preferred-package-location="C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>srr_isri_design_visualization</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company>ISRI</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\ISRI.gif</param.screenshot>
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\ISRI\srr_isri_design_visualization\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\srr_isri_design_visualization\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\srr_isri_design_visualization\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\srr_isri_design_visualization\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\srr_isri_design_visualization.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\configureSport.m</file>
+      <file>${PROJECT_ROOT}\displayChirpParams.m</file>
+      <file>${PROJECT_ROOT}\generate_params_for_SRR.m</file>
+      <file>${PROJECT_ROOT}\gui_initializer.m</file>
+      <file>${PROJECT_ROOT}\load_config.m</file>
+      <file>${PROJECT_ROOT}\plotRectGrid.m</file>
+      <file>${PROJECT_ROOT}\plotSemiCircularGrid.m</file>
+      <file>${PROJECT_ROOT}\read_file_and_plot_object_location.m</file>
+      <file>${PROJECT_ROOT}\read_serial_port_and_plot_object_location.m</file>
+      <file>${PROJECT_ROOT}\read_serial_port_and_plot_object_location_with_serial_obd.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\srr_isri_design_visualization\for_testing" name="readme.txt" optional="true">C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\srr_isri_design_visualization\for_testing" name="srr_isri_design_visualization.exe" optional="false">C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_testing\srr_isri_design_visualization.exe</file>
+      <file location="${PROJECT_ROOT}\srr_isri_design_visualization\for_testing" name="splash.png" optional="false">C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -1,0 +1,27 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_redistribution" />
+  <mkdir dir="C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_testing" />
+  <mkdir dir="C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_redistribution_files_only" />
+</ant>
+mcc -C -o srr_isri_design_visualization -W WinMain:srr_isri_design_visualization -T link:exe -d C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_testing -v C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization.m 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+Begin validation of MEX files: Thu Oct 11 13:30:16 2018
+End validation of MEX files: Thu Oct 11 13:30:16 2018
+[¾¯¸æ: Adding path "C:\Users\Administrator\Desktop\gui2" to Compiler path
+instance.] 
+Parsing file "C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files (x86)\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_icon.ico to C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_testing\srr_isri_design_visualization.exe.
+Attempting to embed the CTF archive into the application C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_testing\srr_isri_design_visualization.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Failed to embed unzip in your application.
+Update resource failed: 5
+Web based installer created at C:\Users\Administrator\Desktop\gui2\srr_isri_design_visualization\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 2 minutes and 2 seconds.
